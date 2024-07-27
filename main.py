@@ -5,7 +5,7 @@ from create_personality import create_personality_config
 
 
 async def main() -> None:
-    client = HumeVoiceClient("51kDwMHG87GnykkoAhVMdXxeLUrtyyctUQfcb6Gmo9YqArwG")
+    client = HumeVoiceClient("KEY")
 
     # Your menu system goes here
     while True:
@@ -16,7 +16,7 @@ async def main() -> None:
         choice = input("Enter your choice: ")
 
         if choice == "1":
-            async with client.connect(config_id="620afc8d-1826-4869-9aff-7eda8ad68a16") as socket:
+            async with client.connect(config_id="con-fig") as socket:
                 await MicrophoneInterface.start(socket)
         elif choice == "2":
             selected_config_name, selected_config_id = list_configs(client)  # Get the selected config (name, id)
