@@ -1,19 +1,10 @@
-Overview
-The Investment Savings Chatbot is an innovative AI-powered assistant created to help users save effectively for investments. Leveraging Hume AI for emotion capturing and natural language understanding, this chatbot provides personalized guidance, helping users manage their finances and make informed investment decisions based on their emotional state and financial goals.
+# Baymax Chatbot
 
-Features
-Emotion Capturing and Analysis
-Emotion Detection: Utilizes Hume AI to capture and analyze user emotions during interactions.
-Personalized Advice: Adjusts savings and investment advice based on the detected emotional state to provide the most supportive guidance.
+Baymax Chatbot is an emotionally intelligent virtual companion built using the Hume AI API. This project allows users to engage in conversations with Baymax, choose from a variety of personalities, or create new personality configurations, providing a personalized and empathetic user experience.
 
-Real-time Expense Tracking
-Automatic Categorization: Users can log their expenses using natural language, and the bot will categorize them automatically.
-Detailed Reports: Generates detailed expense reports, helping users understand their spending patterns and identify savings opportunities.
+## Features
 
-Personalized Budgeting Assistance
-Budget Limits: Users can set budget limits for different categories.
-Alerts: The bot sends alerts when users approach or exceed their budget limits, promoting better financial management.
-
-Financial Goal Setting
-Investment Goals: Users can set investment goals (e.g., saving a certain amount for a stock portfolio) and track their progress.
-Tips and Advice: Provides actionable tips to help users achieve their investment savings goals faster.
+- **Emotionally Intelligent Responses**: Baymax adapts to the user's emotions for more engaging interactions.
+- **Personality Selection**: Users can select from a set of predefined personalities.
+- **Custom Personality Configuration**: Option to create and configure new personalities for Baymax.
+- **Voice Interactions**: Powered by Hume AI to provide advanced AI-driven voice communication.
